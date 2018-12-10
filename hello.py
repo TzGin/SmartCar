@@ -3,4 +3,4 @@ from ev3dev.ev3 import *
 
 file=sys.stderr
 
-print("hello")
+print("hello!")
