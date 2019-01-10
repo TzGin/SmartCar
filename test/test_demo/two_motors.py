@@ -1,9 +1,17 @@
+/*
+ * @Author: Zijing Feng 
+ * @Date: 2018-12-18 
+ * @Last Modified by: Zijing Feng
+ * @Last Modified time: 2019-01-10 21:05:17
+ */
+
 #!/usr/bin/env python3
 """
 马达组测试程序
 
-需要更改的是第14行
-第14行需要根据实际传感器插入主机的接口更改
+需要更改的是第22行，第25，27，29行
+第21行需要根据实际传感器插入主机的接口更改
+第25，27，29行根据需要更改速度，角度，时间，是否刹车等参数
 
 更多细节参考https://python-ev3dev.readthedocs.io/en/ev3dev-stretch/motors.html#move-tank
 """

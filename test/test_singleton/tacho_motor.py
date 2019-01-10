@@ -1,10 +1,17 @@
+/*
+ * @Author: Zijing Feng 
+ * @Date: 2018-12-18
+ * @Last Modified by: Zijing Feng
+ * @Last Modified time: 2019-01-10 21:02:14
+ */
+ 
 #!/usr/bin/env python3
 """
 转速马达测试程序
 
-需要更改的是第15，18行
-第15行需要根据实际马达插入主机的接口更改
-第18行speed指的是最大速度的百分比，可以加负号改变转向，测试达不到最大速度是正常的情况
+需要更改的是第27，30行
+第27行需要根据实际马达插入主机的接口更改
+第30行speed指的是最大速度的百分比，可以加负号改变转向，测试达不到最大速度是正常的情况
 
 由于内置PID，马达无法恒速运行
 更多细节参考https://python-ev3dev.readthedocs.io/en/ev3dev-stretch/motors.html#tacho-motor-motor

@@ -1,9 +1,16 @@
+/*
+ * @Author: Zijing Feng 
+ * @Date: 2018-12-18
+ * @Last Modified by: Zijing Feng
+ * @Last Modified time: 2019-01-10 21:03:01
+ */
+ 
 #!/usr/bin/env python3
 """
-触摸传感器测试程序
+超声波传感器测试程序
 
-需要更改的是第22行
-第22行需要根据实际传感器插入主机的接口更改
+需要更改的是第26行
+第26行需要根据实际传感器插入主机的接口更改
 
 乐高超声波传感器有效距离为3-255cm
 更多细节参考https://python-ev3dev.readthedocs.io/en/ev3dev-stretch/sensors.html#touch-sensor
