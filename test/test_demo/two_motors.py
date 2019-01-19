@@ -1,20 +1,18 @@
-/*
- * @Author: Zijing Feng 
- * @Date: 2018-12-18 
- * @Last Modified by: Zijing Feng
- * @Last Modified time: 2019-01-10 21:05:17
- */
-
 #!/usr/bin/env python3
-"""
+# -*- encoding: utf-8 -*-
+'''
+@File    :   two_motors.py
+@Time    :   2019/01/19 11:21:43
+@Author  :   Zijing Feng
+
 马达组测试程序
 
-需要更改的是第22行，第25，27，29行
+需要更改的是第20行，第23，25，27行
 第21行需要根据实际传感器插入主机的接口更改
-第25，27，29行根据需要更改速度，角度，时间，是否刹车等参数
+第23，25，27行根据需要更改速度，角度，时间，是否刹车等参数
 
 更多细节参考https://python-ev3dev.readthedocs.io/en/ev3dev-stretch/motors.html#move-tank
-"""
+'''
 
 from ev3dev2.motor import *
 

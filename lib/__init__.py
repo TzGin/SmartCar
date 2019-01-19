@@ -1,11 +1,10 @@
-/*
- * @Author: Zijing Feng 
- * @Date: 2018-12-18 
- * @Last Modified by: Zijing Feng
- * @Last Modified time: 2019-01-10 20:55:31
- */
+# -*- encoding: utf-8 -*-
+'''
+@File    :   __init__.py
+@Time    :   2019/01/19 11:19:31
+@Author  :   Zijing Feng
+'''
 
-#-*- coding: utf-8 -*-
 import sys
 
 def debug_print(*args, **kwargs):

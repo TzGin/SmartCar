@@ -1,19 +1,17 @@
-/*
- * @Author: Xulei Cheng 
- * @Date: 2019-01-10 18:29 
- * @Last Modified by: Zijing Feng
- * @Last Modified time: 2019-01-10 21:00:33
- */
-
 #!/usr/bin/env python3
-"""
+# -*- encoding: utf-8 -*-
+'''
+@File    :   color_sensor.py
+@Time    :   2019/01/19 11:22:34
+@Author  :   Zijing Feng
+
 颜色传感器测试程序
 
-需要更改的是第24行
-第24行需要根据实际传感器插入主机的接口更改
+需要更改的是第22行
+第22行需要根据实际传感器插入主机的接口更改
 
 更多细节参考https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/ev3dev-stretch/sensors.html?highlight=Sensor#color-sensor
-"""
+'''
 
 import sys
 sys.path.append(r"/home/robot/SmartCar-master/")
