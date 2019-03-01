@@ -22,7 +22,7 @@ from lib import debug_print
 
 
 #主机与马达建立连接
-__motor = Motor(OUTPUT_A)
+__motor = Motor(OUTPUT_D)
 
 while 1:
     __motor.on(speed=30, brake=False, block=False) #马达以大约最大速度的30%运行
